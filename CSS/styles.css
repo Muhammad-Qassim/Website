@@ -572,6 +572,9 @@ a {
   box-shadow: 0 0 0 3px #666666;
   border-radius: 5px;
 }
+.nav__image {
+  margin-top: 1rem;
+}
 @media screen and (min-width: 768px) {
   .nav__toggler {
     display: none;
@@ -590,7 +593,7 @@ a {
 
 /* Hero */
 .hero {
-  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 90%);
 }
 .hero__tagline {
   font-size: 2rem;
